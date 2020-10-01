@@ -543,7 +543,7 @@ html {
   border-radius: 0.5rem;
 }
 
-.card-img-wrapper img {
+.card-img-wrapper lottie-player {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -552,8 +552,12 @@ html {
   transition: opacity 0.3s;
 }
 
-.card:hover .card-img-wrapper img {
+/* .card:hover .card-img-wrapper img {
   opacity: 0.5;
+} */
+
+.card-img-wrapper-lottie{
+  width: 340px; height: 300px;
 }
 
 .card-info {
@@ -1008,6 +1012,12 @@ html {
     font-size: 45%;
   }
 
+  .card-img-wrapper-lottie{
+    width: 72%;
+    height: 91%;
+ 
+   }
+
   .sidebar {
     width: 100%;
     right: -100%;
@@ -1024,4 +1034,15 @@ html {
   .footer {
     height: 18rem;
   }
+
+  /* @media (max-width: 400){
+    .card-img-wrapper-lottie{
+
+      .card-img-wrapper-lottie{
+        width: 50%;
+        height: 91%;
+     
+       }
+    }
+  } */
 }
